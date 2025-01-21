@@ -2,7 +2,29 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-// Styled Components
+const Main: React.FC = () => {
+  return (
+    <Container>
+      <ButtonContainer>
+        <Link to="/Form">
+          <StyledButton>Form</StyledButton>
+        </Link>
+        <Link to="/TodoList">
+          <StyledButton>TodoList</StyledButton>
+        </Link>
+        <Link to="/Todos">
+          <StyledButton>Todos</StyledButton>
+        </Link>
+        <Link to="/Calculate">
+          <StyledButton>Calculate</StyledButton>
+        </Link>
+      </ButtonContainer>
+    </Container>
+  );
+};
+
+export default Main;
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -38,25 +60,3 @@ const StyledButton = styled.button`
     outline: none;
   }
 `;
-
-const Main: React.FC = () => {
-  return (
-    <Container>
-      
-
-      <ButtonContainer>
-        <Link to="/Form">
-          <StyledButton>Form</StyledButton>
-        </Link>
-        <Link to="/TodoList">
-          <StyledButton>TodoList</StyledButton>
-        </Link>
-        <Link to="/Todos">
-          <StyledButton>Todos</StyledButton>
-        </Link>
-      </ButtonContainer>
-    </Container>
-  );
-};
-
-export default Main;

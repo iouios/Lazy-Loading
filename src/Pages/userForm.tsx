@@ -5,63 +5,6 @@ import { Formik, FormikHelpers } from "formik";
 import * as Yup from "yup";
 import styled from "styled-components";
 
-const Center = styled.div`
-  margin: auto;
-  width: 50%;
-  border: 1px solid;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-`;
-
-const ErrorText = styled.div`
-  color: red;
-  font-size: 0.875rem;
-  margin-top: 0.5rem;
-`;
-
-const ButtonGroup = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-`;
-
-const TextMargin = styled.div`
-  margin: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-`;
-
-const StyledInput = styled.input`
-  margin: 10px 0;
-  padding: 8px;
-  width: 50%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  outline: none;
-
-  &.input-error {
-    border: 1px solid red;
-  }
-`;
-
-const StyledButton = styled.button`
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 5px;
-
-  &:hover {
-    background-color: #0056b3;
-  }
-`;
-
 interface FormValues {
   userName: string;
   address: string;
@@ -298,3 +241,61 @@ const UserForm: React.FC = () => {
 };
 
 export default UserForm;
+
+
+const Center = styled.div`
+  margin: auto;
+  width: 50%;
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+`;
+
+const ErrorText = styled.div`
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+`;
+
+const ButtonGroup = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+`;
+
+const TextMargin = styled.div`
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+`;
+
+const StyledInput = styled.input`
+  margin: 10px 0;
+  padding: 8px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+
+  &.input-error {
+    border: 1px solid red;
+  }
+`;
+
+const StyledButton = styled.button`
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+`;

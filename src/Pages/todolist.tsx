@@ -4,34 +4,9 @@ import AddDelete from "../components/addDelete";
 import AddBookmark from "../components/addBookmark";
 import styled from "styled-components";
 
-type Item = string;
-
-const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: black;
-  border: 4px solid #ffdd5b;  // Adding yellow border here
-  border-radius: 12px;  // Optional: rounded corners for the border
-`;
-
-const YellowCircle = styled.button`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  color: white;
-  border-radius: 10px;
-  border: 2px solid #ffdd5b;
-  padding: 20px;
-  width: 100px;
-  height: 40px;
-`;
-
 function TodoList() {
-  const [valueList, setValueList] = useState<Item[]>([]); // List of items (strings)
-  const [bookmarkedItems, setBookmarkedItems] = useState<Item[]>([]); // List of bookmarked items (strings)
+  const [valueList, setValueList] = useState<Item[]>([]); 
+  const [bookmarkedItems, setBookmarkedItems] = useState<Item[]>([]); 
 
   useEffect(() => {
     const storedValueList = localStorage.getItem("valueList");
@@ -78,3 +53,28 @@ function TodoList() {
 }
 
 export default TodoList;
+
+type Item = string;
+
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  border: 4px solid #ffdd5b;  // Adding yellow border here
+  border-radius: 12px;  // Optional: rounded corners for the border
+`;
+
+const YellowCircle = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #ffdd5b;
+  padding: 20px;
+  width: 100px;
+  height: 40px;
+`;
