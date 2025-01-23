@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ โปรเจคเกี่ยวกับการทดสอบการใช้งาน framework ในการทำงานโดยจะมีอยู่ 4 ตัวอย่าง
+ 1.การกรอกข้อมูล
+ 2.การบันทึกข้อมูล Todolist
+ 3.การแสดงผลของ API
+ 4.การคำนวนค่า
 
-## Available Scripts
+# สารบัญ
+[ขั้นตอนการติดตั้ง](#%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87)
+[ขั้นตอนการใช้งาน](#%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99)
+# ขั้นตอนการติดตั้ง
+1.ใช้การโครนของgit
+git clone https://github.com/iouios/Lazy-Loading.git
+2. เข้า Command Prompt เลือกโฟลเดอร์ที่อยากให้ตัวโปรแกรมอยู่แล้วใช้คำสั่ง
+git clone "https://github.com/iouios/Lazy-Loading.git"
+3.เข้า Vscode แล้วไปที่ Terminal แล้วใช้คำสั่ง npm i
+4.จากนั้นใช้คำสั่ง npm start เพื่อเข้าหน้าเว็ป
 
-In the project directory, you can run:
+# ขั้นตอนการใช้งาน
+1.หน้าหลัก จะมีปุ่มให้เลือกว่าจะเข้าไปในหน้าไหนโดยจะมีปุ่ม4ปุ่ม
+ 2.การกรอกข้อมูล
+ กรอกข้อมูลการตามฟอร์มที่มีแล้วทางinputของโปรแกรม
+ 3.การบันทึกข้อมูล Todolist
+  จะมีให้กรอกข้อมูลโดยข้อมูลจะมีฟั่งชั่น การเก็บใน localStorage จะมีให้กด bookmarked เพื่อเมื่อกดรีเฟสข้อมูลที่กดจะยังคงอยู่
+ 4.การแสดงผลของ API
+ นำข้อมูลที่อยู่ใน api มาแสดงผลโดยสามารถกรอกข้อมูลเพื่มได้โดยจะแสดงผลให้เห็น
+ 5.การคำนวนค่า
+จะมีปุ่มให้เลือกค่ากลางก่อนโดยมีปุ๋ม + และ - เมื่อเลือกค่าเสร็จจะสามารถนำค่ากลางมารวมกับค่าให้ได้โดยใช้ปุ๋ม+ และ - ปุ่มเดิมโดยค่าที่กดจะนำมารวมกับค่ากลาง
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# เครดิต
+Isawan Yuenyongkun (Software Developer)
