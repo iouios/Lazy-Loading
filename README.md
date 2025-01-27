@@ -38,7 +38,11 @@ git clone "https://github.com/iouios/Lazy-Loading.git"
  
  5.การคำนวนค่า จะมีปุ่มให้เลือกค่ากลางก่อนโดยมีปุ๋ม + และ - เมื่อเลือกค่าเสร็จจะสามารถนำค่ากลางมารวมกับค่าให้ได้โดยใช้ปุ๋ม+ และ - ปุ่มเดิมโดยค่าที่กดจะนำมารวมกับค่ากลาง
 
- 
+ ![Screenshot 2025-01-27 114223](https://github.com/user-attachments/assets/d189c150-5391-4048-b324-1a5fb3b7b58f)
+
+
+![Screenshot 2025-01-27 113705](https://github.com/user-attachments/assets/b4eadb83-0a6e-4cce-89a2-470cff4e777d)
+
 
 ## เครดิต
 Isawan Yuenyongkun (Software Developer)
