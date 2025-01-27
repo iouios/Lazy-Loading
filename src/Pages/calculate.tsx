@@ -7,12 +7,15 @@ const Calculator: React.FC = () => {
   const [tempValue, setTempValue] = useState<number>(0); 
   const [isSettingStart, setIsSettingStart] = useState<boolean>(true); 
 
+
   const initialValue = useMemo(() => startValue, [startValue]);
+
+
+  const total = useMemo(() => startValue + sum, [startValue, sum]);
 
   const handleCalculation = useCallback(
     (operation: '+' | '-') => {
       if (isSettingStart) {
-        
         setTempValue((prevValue) => {
           if (operation === '+') {
             return prevValue + 1;
@@ -22,7 +25,6 @@ const Calculator: React.FC = () => {
           return prevValue;
         });
       } else {
-       
         setSum((prevSum) => {
           if (operation === '+') {
             return prevSum + 1;
@@ -56,12 +58,13 @@ const Calculator: React.FC = () => {
       )}
       <ResultSection>
         <h3>ค่าเริ่มต้น: {initialValue}</h3>
-        <h3>ผลรวม: {sum}</h3>
+        <h3>ผลรวม: {total}</h3>
       </ResultSection>
     </Container>
   );
 };
 
+// Styled Components
 const Container = styled.div`
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -107,12 +110,12 @@ const Value = styled.span`
 `;
 
 const SetStartButton = styled(Button)`
-  background-color: #007bff;
+  background-color: #28a745;
   width: 100%;
   margin-top: 20px;
 
   &:hover {
-    background-color: #0056b3;
+    background-color: #218838;
   }
 `;
 
