@@ -15,12 +15,12 @@ git clone "https://github.com/iouios/Lazy-Loading.git"
 
 3.ขั้นตอนการใช้งาน
 
-1.หน้าหลัก จะมีปุ่มให้เลือกว่าจะเข้าไปในหน้าไหนโดยจะมีปุ่ม4ปุ่ม
+1.หน้าหลัก จะมีปุ่มให้เลือกว่าจะเข้าไปในหน้าไหนโดยจะมีปุ่ม4ปุ่ม(React Router-dom)
 
 ![Screenshot 2025-01-23 110948](https://github.com/user-attachments/assets/554b045f-f5f7-4852-b178-45ded50a7499)
 
 
- 2.การกรอกข้อมูลกรอกข้อมูลการตามฟอร์มที่มีแล้วทางinputของโปรแกรม
+ 2.การกรอกข้อมูลกรอกข้อมูลการตามฟอร์มที่มีแล้วทางinputของโปรแกรม(Formik Yup Redux Toolkit)
  ![Screenshot 2025-01-23 111015](https://github.com/user-attachments/assets/953ee94f-604c-4bcc-9939-8513849c39ad)
 
 ![Screenshot 2025-01-23 111058](https://github.com/user-attachments/assets/c16149fd-d27d-4aa2-aa75-071725a3ba4f)
@@ -31,12 +31,12 @@ git clone "https://github.com/iouios/Lazy-Loading.git"
  ![Screenshot 2025-01-23 111146](https://github.com/user-attachments/assets/94c5bf4b-18d1-4d7e-842f-e9ddf110199f)
 
   
- 4.การแสดงผลของ API นำข้อมูลที่อยู่ใน api มาแสดงผลโดยสามารถกรอกข้อมูลเพื่มได้โดยจะแสดงผลให้เห็น
+ 4.การแสดงผลของ API นำข้อมูลที่อยู่ใน api มาแสดงผลโดยสามารถกรอกข้อมูลเพื่มได้โดยจะแสดงผลให้เห็น (Redux Toolkit)
 
  ![Screenshot 2025-01-23 111220](https://github.com/user-attachments/assets/0777cdb5-a311-4afb-80c1-0e716b746e74)
 
  
- 5.การคำนวนค่า จะมีปุ่มให้เลือกค่ากลางก่อนโดยมีปุ๋ม + และ - เมื่อเลือกค่าเสร็จจะสามารถนำค่ากลางมารวมกับค่าให้ได้โดยใช้ปุ๋ม+ และ - ปุ่มเดิมโดยค่าที่กดจะนำมารวมกับค่ากลาง
+ 5.การคำนวนค่า จะมีปุ่มให้เลือกค่ากลางก่อนโดยมีปุ๋ม + และ - เมื่อเลือกค่าเสร็จจะสามารถนำค่ากลางมารวมกับค่าให้ได้โดยใช้ปุ๋ม+ และ - ปุ่มเดิมโดยค่าที่กดจะนำมารวมกับค่ากลาง (useMemo useCallback)
 
  ![Screenshot 2025-01-27 114223](https://github.com/user-attachments/assets/d189c150-5391-4048-b324-1a5fb3b7b58f)
 
