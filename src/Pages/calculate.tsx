@@ -54,7 +54,9 @@ const Calculator: React.FC = () => {
         <Button onClick={() => handleCalculation('-')}>-</Button>
       </ValueControl>
       {isSettingStart && (
+        <ValueControl>
         <SetStartButton onClick={handleSetStart}>ตั้งค่าเป็นเริ่มต้น</SetStartButton>
+        </ValueControl>
       )}
       <ResultSection>
         <h3>ค่าเริ่มต้น: {initialValue}</h3>
@@ -113,7 +115,6 @@ const SetStartButton = styled(Button)`
   background-color: #28a745;
   width: 100%;
   margin-top: 20px;
-
   &:hover {
     background-color: #218838;
   }
